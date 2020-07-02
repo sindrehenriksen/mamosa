@@ -1,0 +1,5 @@
+[flake8]
+exclude = .git, venv, env
+ignore = E203, E741
+max-line-length = 88
+select = B,C,E,F,W,T4,B9
