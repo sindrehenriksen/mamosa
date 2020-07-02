@@ -1,0 +1,7 @@
+-r requirements.txt
+pytest
+pre-commit
+flake8
+black
+pip-tools
+pytest_cases
