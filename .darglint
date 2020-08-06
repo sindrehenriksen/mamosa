@@ -1,0 +1,3 @@
+[darglint]
+# disable linting on private methods
+ignore_regex=^_(.*)
