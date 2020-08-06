@@ -23,4 +23,6 @@ Install git hooks that run linting and tests before commit/push:
 ```
 pre-commit install -t pre-commit
 pre-commit install -t pre-push
+pip install gitlint
+gitlint install-hook
 ```
