@@ -3,6 +3,8 @@
 ## About
 This code base was developed for my Master's thesis in Applied Mathematics. It comprises code to create synthetic seismic data volumes and three distinct seismic horizon autotrackers, two of which are based on a Hidden Markov Model.
 
+The Master's thesis can be found in the project wiki section.
+
 ## Installation instructions
 Dependencies for using the repo:
 `pip install -r requirements.txt`
