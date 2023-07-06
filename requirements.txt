@@ -4,12 +4,29 @@
 #
 #    pip-compile requirements.in
 #
-bruges==0.3.4             # via -r requirements.in
-cycler==0.10.0            # via matplotlib
-kiwisolver==1.2.0         # via matplotlib
-matplotlib==3.2.1         # via -r requirements.in
-numpy==1.18.2             # via -r requirements.in, bruges, matplotlib, scipy
-pyparsing==2.4.7          # via matplotlib
-python-dateutil==2.8.1    # via matplotlib
-scipy==1.4.1              # via -r requirements.in, bruges
-six==1.14.0               # via cycler, python-dateutil
+bruges==0.3.4
+    # via -r requirements.in
+cycler==0.10.0
+    # via matplotlib
+kiwisolver==1.2.0
+    # via matplotlib
+matplotlib==3.2.1
+    # via -r requirements.in
+numpy==1.25.0
+    # via
+    #   -r requirements.in
+    #   bruges
+    #   matplotlib
+    #   scipy
+pyparsing==2.4.7
+    # via matplotlib
+python-dateutil==2.8.1
+    # via matplotlib
+scipy==1.10.0
+    # via
+    #   -r requirements.in
+    #   bruges
+six==1.14.0
+    # via
+    #   cycler
+    #   python-dateutil
